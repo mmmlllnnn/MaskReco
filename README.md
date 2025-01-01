@@ -17,18 +17,18 @@ best1、2、3.pt为模型文件，如有需要自行替换。
 
 
 ## 注释
-对不起，由于我换了环境，在整理老项目代码并传到github上时，发现这个项目里缺少了 ***requirements.txt*** 文件，所以我用 ```pipreqs ./ --encoding=utf-8``` 重新生成的，但是大部分依赖，我的老环境中都卸掉了，所以版本并不完全对应。<br>
+由于我换了环境，在整理老项目代码并传到github上时，发现这个项目里缺少了 ***requirements.txt*** 文件，所以我用 ```pipreqs ./ --encoding=utf-8``` 重新生成的，但是大部分依赖，我的老环境中都卸掉了，所以版本并不完全对应。<br>
 
 如果你不能运行请重新安装 ```pip install -r requirements2.txt ``` 的依赖，并手动补齐缺失的库。<br>
 但这样做之前也请事先排查好torch版本的问题，
-再次抱歉！！！！
+抱歉！！！！
 
 
 <br>
 <br>
 <br>
 <br> 
-下面是曾经的拙劣文章(已过时)
+(下已过时)
 
 ---
 
@@ -176,8 +176,6 @@ YOLOv5
 ## 模型训练过程：
 
 使用环境：Python3.8+torch1.8.1+cuda11.1+pycharm
-（注：cuda的安装版本取决于显卡类型）
-
 
 **1.数据集的标注：**
 
@@ -235,7 +233,7 @@ python train.py --weights data/yolov5s.pt --cfg models/yolov5s.yaml --data data/
 ------------
 
 
-## 模型结果数据呈现：
+## 模型结果：
 1.数据集的分布：
 ![](https://s1.ax1x.com/2022/07/07/jdy1VU.jpg)
 mask的照片约有2000张，face的照片约有2500张。
